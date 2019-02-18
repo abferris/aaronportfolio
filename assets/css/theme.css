@@ -20,6 +20,7 @@ h6 {
   font-weight: 300;
   color: #666;
   line-height: 1.5em;
+  font-family: 'Muli', sans-serif;
 }
 
 h1 a,
@@ -170,7 +171,7 @@ blockquote {
 }
 
 #nav ul li a.active {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(10, 148, 28, 0.87);
   box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
   color: #fff;
 }
@@ -230,13 +231,13 @@ blockquote {
 }
 
 #main>section.two {
-  background-color: #f5fafa;
+  background-color: #fadaaa;
 }
 
 #main>section.three {
-  background-color: #ecf1f1;
+  background-color: #f7d29c;
 }
 
 #main>section.four {
-  background-color: #e8edec;
+  background-color: #fdc777;
 }
