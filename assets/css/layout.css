@@ -1,0 +1,106 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+header {
+  margin: 0 0 2em 0;
+}
+
+header>p {
+  margin: 1em 0 0 0;
+}
+
+footer {
+  margin: 2em 0 0 0;
+}
+
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+/* Container */
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 1400px;
+}
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+  .container {
+    width: 1200px;
+  }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+  .container {
+    width: 960px;
+  }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 736px) {
+
+  .container {
+    width: 100%;
+  }
+
+}
+
+#main {
+  margin-left: 375px;
+}
+
+/* Wide */
+
+@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+  /* Basic */
+
+    body, input, textarea, select {
+      font-size: 17pt;
+    }
+
+  /* Header */
+
+    #header {
+      width: 300px;
+    }
+
+  /* Footer */
+
+    #footer {
+      margin-left: 300px;
+    }
+
+  /* Main */
+
+    #main {
+      margin-left: 300px;
+    }
+
+}
