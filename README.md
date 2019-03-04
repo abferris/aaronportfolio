@@ -18,9 +18,9 @@ Estimate of time needed to complete: 2.5 hours
 
 Start time: 9:25
 
-Finish time: _____
+Finish time: 1:30
 
-Actual time needed to complete: _____
+Actual time needed to complete: 4 hours
 Add this information to your README.
 
 User Acceptance Tests
