@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 //tell express where to load our "html files from"
-// app.use(express.static('./public'));
+app.use(express.static('./public'));
 
 // creates routes (paths) that the user can access the server from
 app.get('/hello', (request,response) =>{
@@ -28,9 +28,9 @@ app.get('/data', (request, response) => {
   response.status(200).json(airplanes);
 });
 
-// app.get('/', (request, response) => {
-//   response.status(200).redirect('index.html');
-// });
+app.get('/', (request, response) => {
+  response.status(200).redirect('index.html');
+});
 
 //catchall to get routes that don't exist
 app.use('*', (request, response) => response.send(`Sorry, that route does not exist`));
